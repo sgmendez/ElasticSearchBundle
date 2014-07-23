@@ -33,7 +33,7 @@ class ElasticSearchExtension extends Extension
 
     private function createElasticSearchDefinition(ContainerBuilder $container, $id, $configuration)
     {        
-        $provider = 'elasticsearch.' . $id;
+        $provider = 'elasticsearch.' . $id;        
         $container
             ->setDefinition(
                 $provider,

@@ -29,7 +29,7 @@ class Configuration implements ConfigurationInterface
                     ->useAttributeAsKey('name')
                     ->prototype('array')
                         ->children()
-                            ->scalarNode('host')->cannotBeEmpty()->defaultValue('localhost:9200')->end()
+                            ->scalarNode('hosts')->cannotBeEmpty()->defaultValue('localhost:9200')->end()
                         ->end()
                     ->end()
                 ->end()
