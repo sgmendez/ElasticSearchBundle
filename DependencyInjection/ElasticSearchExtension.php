@@ -13,7 +13,7 @@ use Symfony\Component\DependencyInjection\DefinitionDecorator;
  *
  * To learn more see {@link http://symfony.com/doc/current/cookbook/bundles/extension.html}
  */
-class CouchBaseExtension extends Extension
+class ElasticSearchExtension extends Extension
 {
     /**
      * {@inheritDoc}
