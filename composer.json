@@ -5,22 +5,23 @@
     "keywords": ["elasticsearch", "nosql"],
     "homepage": "http://www.prisadigital.com",
     "license": "Prisa Servicios Digitales",
+    
     "authors": [
         {
             "name": "Salvador Mendez",
             "email": "salva@sgmendez.com"
         }
     ],
+            
     "require": {
         "php":                      ">=5.3.2",
         "symfony/framework-bundle": ">=2.0.0",
         "elasticsearch/elasticsearch": "~1.0"
     },
-    "suggest": {
-        "ext-exif": "to conect to ElasticSearch database"
-    },
+            
     "autoload": {
         "psr-0": { "PSD\\Bundle\\ElasticSearchBundle": "" }
     },
+            
     "target-dir": "PSD/Bundle/ElasticSearchBundle"
 }
