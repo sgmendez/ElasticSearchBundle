@@ -16,6 +16,7 @@ Hacer el require del paquete en el fichero `composer.json` del proyecto:
     }
     //...
     "require": {
+        "elasticsearch/elasticsearch": "~1.0",
         "psd/elasticsearch": "*"
     }
     //...
